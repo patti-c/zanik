@@ -1,0 +1,239 @@
+#foo {
+    color: white;
+}
+
+.page-wrap {
+    background: url(https://www.runescape.com/img/rsp777/bg2.jpg) repeat-y center top;
+    margin: 0 auto;
+    overflow-y: hidden;
+    padding: 0 50px;
+    width: 815px;
+    border: 0;
+    outline: 0;
+    display: block;
+}
+
+body {
+    background: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    height: 100%;
+    line-height: 1;
+    text-align: left;
+    border: 0;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.content {
+    background: url(https://www.runescape.com/img/rsp777/scroll/backdrop_745.gif) repeat-y top center;
+    padding: 50px 75px;
+    position: relative;
+    display: block;
+    border: 0;
+    outline: 0;
+    margin: 0;
+}
+
+.content:before, .content:after {
+    background: url(https://www.runescape.com/img/rsp777/scroll/backdrop_765_top.gif) no-repeat center top;
+    content: '';
+    height: 50px;
+    left: 0;
+    position: absolute;
+    top: -11px;
+    width: 100%;
+}
+
+.content:after {
+    background: url(https://www.runescape.com/img/rsp777/scroll/backdrop_765_bottom.gif) no-repeat center bottom;
+    bottom: -11px;
+    top: auto;
+}
+
+
+.home-main-title {
+    color: #6D4211;
+    font-family: initial;
+    font-size: 3.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.content__copy {
+    color: black;
+    font-size: 1.3em;
+}
+
+p {
+    line-height: 150%;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.content__title {
+    color: black;
+    font-size: 1.9em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.left__content {
+    float: left;
+    min-height: 130px;
+    width: 175px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    unicode-bidi: isolate;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    display: block;
+    unicode-bidi: isolate;
+    color: black;
+    font-size: 1.3em;
+}
+
+.left__content_wide {
+    float: left;
+    min-height: 130px;
+    width: 350px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    unicode-bidi: isolate;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    display: block;
+    unicode-bidi: isolate;
+    color: black;
+    font-size: 1.3em;
+}
+
+.right__content_thin {
+    float: right;
+    width: 150px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    display: block;
+    unicode-bidi: isolate;
+    color: black;
+    font-size: 1.3em;
+}
+
+.right__content {
+    float: right;
+    width: 350px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    display: block;
+    unicode-bidi: isolate;
+    color: black;
+    font-size: 1.3em;
+}
+
+.content__image {
+    max-height: 400px;
+    width: auto;
+    max-width: 150px;
+}
+
+.content__section {
+    display: block;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
+    position: relative;
+    width: 540px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+
+.content__section:after {
+    background: #6B7B17;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+h3 {
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+.right__content_title {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #7B4F17;
+    font-weight: bold;
+}
+
+.left__content_title {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #7B4F17;
+    font-weight: bold;
+}
+
+.zanik_fanart {
+    max-height: 350px;
+    height: auto;
+}
+
+a {
+    font-size: 1.5em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    display: block;
+    font-weight: bold;
+}
